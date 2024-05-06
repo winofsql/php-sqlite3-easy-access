@@ -2,7 +2,7 @@
 
 try {
   
-  $db = new PDO('sqlite:lightbox.sqlite3');
+  $db = new PDO('sqlite:../lightbox.sqlite3');
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
   $query = <<<QUERY_DATA
